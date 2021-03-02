@@ -81,7 +81,7 @@ enum FileSystemType
 }
 
 /// Constants:
-let RAMDISK_GB = 4 // Set the number of gigabytes for the RAM disk here!
+let RAMDISK_GB = 24 // Set the number of gigabytes for the RAM disk here!
 let home = NSHomeDirectory()
 let derivedDataPath = "\(home)/Library/Developer/Xcode/DerivedData"
 let encoding: String.Encoding = .utf8
